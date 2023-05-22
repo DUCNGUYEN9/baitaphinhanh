@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 100px;
+}
+
+h3 {
+  color: #1db2cd;
+  margin-bottom: 20px;
+}
+.content {
+  background-color: #e9ceb1;
+  border-left: 5px solid #b1690a;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+.content p {
+  margin: 15px 0;
+}
+.container p:nth-child(1) {
+  padding-top: 15px;
+  font-size: 20px;
+}

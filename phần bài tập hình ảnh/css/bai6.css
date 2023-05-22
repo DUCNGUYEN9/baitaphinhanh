@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 100px auto;
+  width: 600px;
+  border: 2px solid #d0cbcb;
+  border-radius: 5px;
+  background-color: #fcf5fa;
+}
+.div2 {
+  border-bottom: 2px solid #d0cbcb;
+  border-top: 2px solid #d0cbcb;
+}
+.div1,
+.div2,
+.div3 {
+  position: relative;
+}
+.content {
+  padding: 10px 0 10px 20px;
+  line-height: 20px;
+}
+.content span {
+  padding-left: 20px;
+}
+button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: #128fe8;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 45%;
+  border: none;
+}

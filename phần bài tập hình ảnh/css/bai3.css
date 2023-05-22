@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 100px auto;
+  width: 600px;
+}
+.images {
+  display: flex;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+h2 {
+  margin: 20px 0;
+}

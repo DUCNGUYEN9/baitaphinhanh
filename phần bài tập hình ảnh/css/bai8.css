@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 100px auto;
+  width: 600px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.item1 {
+  background-color: #d8f0f4;
+  border-bottom: 1px solid grey;
+  color: rgb(9, 88, 190);
+}
+.item1,
+.item2,
+.item3 {
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+.item,
+.item2 {
+  border-bottom: 1px solid grey;
+}
+.text {
+  padding: 15px 20px;
+}
+.bold {
+  font-weight: 800;
+}
+.red-color {
+  color: red;
+}
+i {
+  position: absolute;
+  right: 15px;
+}
